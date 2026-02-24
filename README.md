@@ -85,8 +85,8 @@ l2_model.fit(X_train, y_train)
 y_pred = l2_model.predict(X_test)
 
 # Evaluate the model
-print("Name: ")
-print("Reg. No: ")
+print("Name:Balasurya S")
+print("Reg. No:212225100003")
 print("\nModel Evaluation:")
 print("Accuracy:", accuracy_score(y_test, y_pred))
 print("\nClassification Report:")
