@@ -102,7 +102,70 @@ print("Reg. No: 212225100003")
 
 ## Output:
 
+Name:Balasurya S
+
+
+Reg. No:212225100003
+
+Dataset Overview:
+   Calories  Total Fat  Saturated Fat  Monounsaturated Fat  \
+0     149.0          0            0.0                  0.0   
+1     123.0          0            0.0                  0.0   
+2     150.0          0            0.0                  0.0   
+3     110.0          0            0.0                  0.0   
+4     143.0          0            0.0                  0.0   
+
+   Polyunsaturated Fat  Trans Fat  Cholesterol  Sodium  Total Carbohydrate  \
+0                  0.0        0.0            0     9.0                 9.8   
+1                  0.0        0.0            0     5.0                 6.6   
+2                  0.0        0.0            0     4.0                11.4   
+3                  0.0        0.0            0     6.0                 7.0   
+4                  0.0        0.0            0     7.0                13.1   
+
+   Dietary Fiber  Sugars  Sugar Alcohol  Protein  Vitamin A  Vitamin C  \
+0            0.0     0.0              0      1.3          0          0   
+1            0.0     0.0              0      0.8          0          0   
+2            0.0     0.0              0      1.3          0          0   
+3            0.0     0.0              0      0.8          0          0   
+4            0.0     0.0              0      1.0          0          0   
+
+   Calcium  Iron            class  
+0        0     0  'In Moderation'  
+1        0     0  'In Moderation'  
+2        0     0  'In Moderation'  
+3        0     0  'In Moderation'  
+4        0     0  'In Moderation'  
+
+Dataset Info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 13260 entries, 0 to 13259
+Data columns (total 18 columns):
+ #   Column               Non-Null Count  Dtype  
+---  ------               --------------  -----  
+ 0   Calories             13260 non-null  float64
+ 1   Total Fat            13260 non-null  int64  
+ 2   Saturated Fat        13260 non-null  float64
+ 3   Monounsaturated Fat  13260 non-null  float64
+ 4   Polyunsaturated Fat  13260 non-null  float64
+ 5   Trans Fat            13260 non-null  float64
+ 6   Cholesterol          13260 non-null  int64  
+ 7   Sodium               13260 non-null  float64
+ 8   Total Carbohydrate   13260 non-null  float64
+ 9   Dietary Fiber        13260 non-null  float64
+ 10  Sugars               13260 non-null  float64
+ 11  Sugar Alcohol        13260 non-null  int64  
+ 12  Protein              13260 non-null  float64
+ 13  Vitamin A            13260 non-null  int64  
+ 14  Vitamin C            13260 non-null  int64  
+ 15  Calcium              13260 non-null  int64  
+ 16  Iron                 13260 non-null  int64  
+ 17  class                13260 non-null  object 
+dtypes: float64(10), int64(7), object(1)
+memory usage: 1.8+ MB
+None
+
 Model Evaluation:
+
 Accuracy: 0.7748868778280543
 
 Classification Report:
