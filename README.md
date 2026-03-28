@@ -211,13 +211,17 @@ Classification Report:
 
 
     
-    accuracy                           0.77      2652
+   accuracy                           0.77      2652
+   
    macro avg       0.83      0.65      0.70      2652
+
 weighted avg       0.79      0.77      0.77      2652
 
 
 [[1162  162    6]
+
  [ 301  823    0]
+ 
  [ 128    0   70]]
 
 ## Result:
